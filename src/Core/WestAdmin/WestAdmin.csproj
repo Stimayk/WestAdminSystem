@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Dapper" Version="2.1.15" />
+		<PackageReference Include="MySqlConnector" Version="2.2.7" />
+	</ItemGroup>
+	<ItemGroup>
+		<Reference Include="CounterStrikeSharp.API">
+			<HintPath>../counterstrikesharp/api/CounterStrikeSharp.API.dll</HintPath>
+		</Reference>
+		<Reference Include="Modularity">
+			<HintPath>../Modularity.dll</HintPath>
+		</Reference>
+		<Reference Include="WestAdminApi">
+			<HintPath>../WestAdminApi.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+
+</Project>
